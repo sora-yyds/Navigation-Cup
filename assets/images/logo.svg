@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="448" viewBox="0 0 1100 448">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 129.167px;
+        font-family: LiSu;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 4.68px;
+      }
+
+      .cls-5 {
+        font-size: 50px;
+        font-family: "Segoe Print";
+        letter-spacing: 20px;
+      }
+
+    </style>
+  </defs>
+  <circle id="椭圆_2" data-name="椭圆 2" class="cls-1" cx="180.5" cy="220.5" r="68.5"/>
+  <path id="椭圆_2-2" data-name="椭圆 2" class="cls-2" d="M287.367,108.134a13.912,13.912,0,1,1-13.912,13.912A13.912,13.912,0,0,1,287.367,108.134Z"/>
+  <text id="数创未来" class="cls-3" x="372.264" y="256.094">数创未来</text>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-4" cx="180" cy="224" r="149"/>
+  <text id="DATA_FUTURE" data-name="DATA FUTURE" class="cls-5" x="357.25" y="311.402">DATA FUTURE</text>
+  
+</svg>

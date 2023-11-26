@@ -12,7 +12,7 @@
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 	html, body, div, span, applet, object,
-	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	iframe, h1, h2, h3, h4, h5, h6,blockquote,
 	pre, a, abbr, acronym, address, big, cite,
 	code, del, dfn, em, img, ins, kbd, q, s, samp,
 	small, strike, strong, sub, sup, tt, var, b,
@@ -109,8 +109,8 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		color: #707070;
+		font-family: "DM Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -130,14 +130,20 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0;
+		padding: 0;
+		text-indent: 2em;
+		  /* 缩进两个空格 */
+		white-space: break-spaces;
+		  /* 自动换行 */
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
-		font-weight: 300;
-		line-height: 1em;
-		margin: 0 0 0.5em 0;
+		color: #404044;
+		font-weight: 700;
+		line-height: 1.2;
+		margin: 0;
+		padding: 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -152,6 +158,7 @@
 	}
 
 	h3 {
+		display: block;
 		font-size: 1.75em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;

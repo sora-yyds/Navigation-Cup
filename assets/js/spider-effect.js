@@ -60,7 +60,7 @@ function() {
         y.y = null
     };
 
-    d.n = 250;
+    d.n =250;
     for (var s = [], f = 0; d.n > f; f++) {
         var h = w() * a,
         g = w() * c,
