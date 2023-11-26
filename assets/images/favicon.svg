@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="357" height="448" viewBox="0 0 357 448">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #39c;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #39c;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-width: 15px;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_2" data-name="椭圆 2" class="cls-1" cx="180.5" cy="220.5" r="68.5"/>
+  <path id="椭圆_2-2" data-name="椭圆 2" class="cls-2" d="M287.357,91.8a30.247,30.247,0,1,1-30.247,30.246A30.247,30.247,0,0,1,287.357,91.8Z"/>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-3" cx="180" cy="224" r="149"/>
+</svg>
