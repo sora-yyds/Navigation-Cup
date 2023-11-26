@@ -11212,7 +11212,7 @@ fieldset:disabled .btn {
   --primary-color: #007e6a;
   --secondary-color: #00c16e;
   --font-color: #707070;
-  --bg-color: #fff;
+  --bg-color: #00000000;
   --heading-color: #404044;
   --border-radius: 6px;
   --border-radius-full: 35px;
