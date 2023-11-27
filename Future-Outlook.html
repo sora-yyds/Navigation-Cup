@@ -1,1228 +1,195 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords"
-        content="Template Responsive web template, Bootstrap Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <title>UI Portfolio - Personal Category Bootstrap Responsive Email Template</title>
-
-    <!-- google-fonts -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>展望未来</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link href="assets/images/favicon.svg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- 字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- //google-fonts -->
 
-    <!--/Template-CSS -->
+    <!-- css样式引用 -->
     <link rel="stylesheet" href="assets/css/style-liberty.css">
-    <!--//Template-CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main-alpha.css" />
 
-    <!--/style -->
-    <style>
-        html,
-        body {
-            margin: 0 auto !important;
-            padding: 0 !important;
-            height: 100% !important;
-            width: 100% !important;
-            background: var(--bg-grey);
-            font-family: 'DM Sans', sans-serif;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        .bg_white {
-            background: var(--bg-color);
-        }
-
-        .bg_light {
-            background: var(--bg-light);
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .bg_theme {
-            background: var(--primary-color);
-        }
-
-        a {
-            font-family: 'DM Sans', sans-serif;
-        }
-
-        .email-w3l-section,
-        .email-hny-section {
-            padding: 3em 2em;
-        }
-
-        .bg_black {
-            background: #061f24;
-        }
-
-        .bg_dark {
-            background: #01181d;
-        }
-
-        /*BUTTON*/
-        .btn {
-            padding: 5px 15px;
-            display: inline-block;
-        }
-
-        .btn.btn-primary {
-            border-radius: 0px;
-            color: #ffffff;
-        }
-
-        .btn.btn-white {
-            border-radius: 5px;
-            background: #ffffff;
-            color: #000000;
-        }
-
-        .btn.btn-white-outline {
-            border-radius: 5px;
-            background: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-        }
-
-        table h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: var(--heading-color);
-            margin: 0;
-        }
-
-        table p {
-            font-size: 16px;
-            color: var(--fontt-olor);
-            line-height: 26px;
-        }
-
-        .center-main-bg {
-            background: var(--bg-color);
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        /*--logo--*/
-        .logo h1 {
-            margin: 0;
-        }
-
-        .logo h1 a {
-            font-size: 30px;
-            font-weight: bold;
-        }
-
-        /*--vjm--*/
-        .vjm {
-            position: relative;
-            z-index: 0;
-        }
-
-        .overlay-banner {
-            background: var(--bg-layer);
-            z-index: 9;
-            padding: 3em 2em;
-        }
-
-        .overlay-lavi {
-            background: rgba(1, 9, 16, 0.81);
-            z-index: 9;
-            padding: 3em 3em;
-        }
-
-        .vjm .text h2 {
-            color: #ffffff;
-            font-size: 30px;
-            margin-bottom: 0;
-        }
-
-        .banner-bottom-gds {
-            padding: 0 2em;
-        }
-
-        .email-hny-bann-content {
-            padding: 0 2em 2em 2em;
-        }
-
-        .email-sub-text {
-            color: #ffffff;
-            font-size: 24px;
-        }
-
-        td.sub-gd.img-ab {
-            padding-right: 2%;
-        }
-
-        /*--/headings--*/
-        .heading-section h4 {
-            color: var(--heading-color);
-            font-size: 22px;
-            margin-top: 0;
-            line-height: 1.4;
-        }
-
-        .heading-section h3 {
-            color: var(--heading-color);
-            font-size: 24px;
-            margin-top: 0;
-            line-height: 1.4;
-        }
-
-        .heading-section-white {
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .heading-section-white h2 {
-            line-height: 1;
-            padding-bottom: 0;
-        }
-
-        .heading-section-white h2 {
-            color: #ffffff;
-        }
-
-        /*--//headings--*/
-        /*--services--*/
-        td.grid table {
-            background: var(--bg-color);
-            padding: 20px;
-            display: block;
-            border-radius: var(--border-radius);
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
-        }
-        .my-info {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 5px;
-            border-top: 1px solid var(--border-color);
-            padding-top: 30px;
-            margin-top: 30px;
-            }
-
-            .single-info p {
-            display: inline-block;
-            }
-
-            .single-info span {
-            color: var(--heading-color);
-            font-weight: 400;
-            margin-right: 10px;
-            font-weight: 600;
-            font-size: 1.1em;
-            min-width: 60px;
-            }
-
-            .single-info p a {
-            color: var(--font-color);
-            font-weight: 500;
-            }
-        .services {
-            color: #151e25;
-        }
-
-        .text-services .meta {
-            text-transform: uppercase;
-            font-size: 14px;
-        }
-
-        td.sub-gd.ab-gd {
-            padding: 0;
-            padding-right: 20px;
-        }
-
-        /*--services--*/
-        /*--team--*/
-        .sub-head .name {
-            margin: 0;
-            font-size: 1em;
-        }
-
-        .sub-head .name a {
-            margin: 0;
-            text-decoration: none;
-            color: var(--heading-color);
-            font-weight: 700;
-            font-size: 17px;
-            line-height: 26px;
-            margin-top: 7px;
-            margin-bottom: 10px;
-            display: inline-block;
-        }
-
-        .sub-head .position {
-            color: var(--heading-color);
-        }
-
-        /*--//team--*/
-        /*--counter--*/
-        .counter {
-            width: 100%;
-            position: relative;
-            z-index: 0;
-        }
-
-        .counter-text {
-            text-align: center;
-        }
-
-        .counter-text .num {
-            color: #fff;
-            font-size: 2.5em;
-            font-weight: bold;
-        }
-
-        .counter-text .name {
-            display: block;
-            color: #fff;
-            font-size: 0.9em;
-            font-weight: bold;
-        }
-
-        td.counter-text.staff {
-            border-left: 1px solid #485460;
-            border-right: 1px solid #485460;
-        }
-
-        /*--//counter--*/
-        /*--footer--*/
-        .footer-emai-61 {
-            color: rgba(255, 255, 255, 0.5);
-        }
-
-        a.email-logo {
-            color: #151e25;
-            font-size: 1.4em;
-            font-weight: bold;
-            line-height: 1.2em;
-        }
-
-        a.facebook,
-        a.twitter,
-        a.dribble {
-            background: #061f24;
-            color: #fff;
-            font-size: 14px;
-            border-radius: 4px;
-            display: inline-block;
-            margin-right: 4px;
-            border-radius: 25px;
-            width: 120px;
-            height: 34px;
-            line-height: 32px;
-            padding: 0 9px;
-            text-align: center;
-        }
-
-        a.twitter {
-            background: #061f24;
-        }
-
-        a.dribble {
-            background: #061f24;
-        }
-
-        a.facebook img,
-        a.twitter img,
-        a.dribble img {
-            margin-right: 10px;
-            vertical-align: middle;
-            width: 16px;
-            display: inline-block;
-        }
-
-        .img-responsive {
-            max-width: 100%;
-        }
-
-        .footer-emai-61 .heading {
-            color: #ffffff;
-            font-size: 20px;
-            margin-bottom: 0.8em;
-        }
-
-        .footer-emai-61 ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        .footer-emai-61 ul li {
-            list-style: none;
-            margin-bottom: 6px;
-        }
-
-        .footer-emai-61 li a {
-            color: #828288;
-        }
-
-        @media screen and (max-width: 640px) {
-            .vjm .text h2 {
-                font-size: 2em !important;
-                margin-bottom: 0;
-            }
-
-            .heading-section h3 {
-                font-size: 25px;
-                margin-bottom: 10px !important;
-            }
-
-            .footer .heading {
-                font-size: 18px;
-            }
-
-            .banner-con {
-                padding: 0 3em !important;
-            }
-
-            .counter-text .num {
-                font-size: 2em;
-            }
-
-            .email-hny-section {
-                padding: 2.5em 1em;
-            }
-
-            td.text-services {
-                padding-left: 0 !important;
-            }
-
-            .counter-text .name {
-                font-size: 0.9em;
-            }
-
-            td.footer-gd,
-            td.copy-gd {
-                width: 100% !important;
-                display: block !important;
-            }
-
-            td.sub-gd {
-                width: 100% !important;
-                display: block;
-                padding-right: 0 !important;
-                padding-left: 0 !important;
-                padding-top: 0;
-                padding-bottom: 0;
-            }
-
-            .sub-head .name {
-                margin: 0;
-                font-size: 0.9em;
-            }
-
-            td.sub-gd.counter-gd {
-                margin-bottom: 0.5em;
-            }
-
-            p.ban-text {
-                padding: 0 !important;
-                font-size: 0.9em !important;
-            }
-
-            .email-hny-section.copy-right-hny {
-                padding: 0.7em 1em;
-            }
-
-            td.sub-gd.shop-gd {
-                margin-bottom: 1em;
-            }
-
-            a.facebook,
-            a.twitter,
-            a.dribble {
-                display: block;
-                margin-bottom: 10px;
-                width: 100%;
-            }
-
-            h2.w3l-text-inf {
-                font-size: 35px !important;
-                line-height: 45px !important;
-            }
-
-            .email-hny-bann-content {
-                padding: 0 1em 2em 1em;
-            }
-            .sub-head {
-                padding-top: 0px !important;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            td.logo {
-                width: 100%;
-                float: left;
-                text-align: center !important;
-            }
-
-            td.logo.nav-top {
-                width: 100%;
-                float: left;
-            }
-
-            .icon {
-                text-align: left;
-            }
-
-            .text-services {
-                padding-left: 0;
-                padding-right: 20px;
-                text-align: left;
-            }
-
-            .banner-con {
-                padding: 0 0em !important;
-            }
-
-            .overlay-banner {
-                padding: 3em 0;
-            }
-
-            .counter-text {
-                margin-bottom: 15px;
-                display: block;
-            }
-            .ban-inner-content p{
-                margin-top: 15px !important;
-            }
-            .w3l-text-inf{
-                margin-top: 10px !important;
-            }
-            .ban-inner-content h3{
-                font-size: 25px !important;
-                line-height: 30px !important;
-            }
-        }
-
-        @media screen and (max-width: 580px) {
-            table {
-                width: 100% !important;
-            }
-            table.w3layouts_social_icons {
-                width: inherit !important;
-                margin-bottom: 20px;
-            }
-
-            .vjm .text h2 {
-                font-size: 1.7em !important;
-                margin-bottom: 0;
-            }
-
-            .heading-section h4 {
-                font-size: 20px;
-            }
-
-            a.read-more.btn:nth-child(1) {
-                margin-right: 5px !important;
-            }
-
-            a.read-more.btn {
-                padding: 12px 25px !important;
-                font-size: 15px !important;
-            }
-
-            table.email-container {
-                margin: 0 !important;
-            }
-
-            .overlay-banner {
-                padding: 2em 0;
-            }
-        }
-    </style>
-    <!--//style -->
 </head>
 
 <body>
-    <table border="0" width="100%" cellpadding="0" cellspacing="0" style="">
-        <tr>
-            <td width="100%" align="center" valign="top">
-                <table align="center" class="email-container" role="presentation" cellspacing="0" cellpadding="0"
-                    border="0" width="700px" style="margin:50px auto 0;">
-                    <!-- start banner -->
-                    <tr>
-                        <td valign="middle" class="vjm bg_white"
-                            style="background-image: url(assets/images/banner1.jpg); background-size:cover;position:relative;">
-                            <div class="overlay-banner">
-                                <table style="padding:0 2em;" role="presentation" cellspacing="0" cellpadding="0"
-                                    border="0" width="100%">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bannert-hny-top" style="text-align:center;padding:0 2em;">
-
-                                                <table role="presentation" border="0" cellpadding="10" cellspacing="0"
-                                                    width="100%">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td valign="top" width="100%" class="logo sub-gd"
-                                                                style="padding:0; padding-bottom:10px;">
-                                                                <h1><a href="index.html"
-                                                                        style="color:#fff;font-size:28px;font-weight:bold; line-height:1em;text-transform:capitalize;">
-                                                                        UI Portfolio</a>
-                                                                </h1>
-
-                                                            </td>
+    <!--header-->
+    <header id="header" class="fixed-top header-transparent">
+        <div class="container d-flex align-items-center justify-content-between position-relative">
+    
+          <div class="logo">
+            <a href="index.html"><img src="assets/images/logo.svg" alt="logo" class="img-fluid"></a>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="/index.html">首页</a></li>
+              <li><a class="nav-link scrollto" href="/index.html#main">文章</a></li>
+              <li><a class="nav-link scrollto" href="#services">服务</a></li>
+              <li><a class="nav-link scrollto" href="#about">关于</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
+        </div>
+      </header>
+    <!--//header-->
 
 
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </td>
-
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <table style="width:100%;">
-                                    <tr>
-                                        <td class="email-hny-bann-content">
-                                            <div class="ban-inner-content"
-                                                style="text-align:btn btn-style btn-white; margin:60px auto 0;">
-                                                <h3 style="color:#fff;font-size:30px;
-                                                font-weight: bold; line-height:40px; max-width: 500px;">Hi, I'm John Watson</h3>
-                                                <h2 class="w3l-text-inf" style="color:#fff;font-size:35px;
-                                           font-weight: bold; line-height:45px; max-width: 500px; margin-top: 20px;
-                                                font-size: 60px;
-                                                line-height: 60px;
-                                                font-family: 'Dosis', sans-serif;
-                                                font-weight: 700;
-                                                color: transparent;
-                                                background: none;
-                                                -webkit-text-stroke-width: 2px;
-                                                -webkit-text-stroke-color: #fff;">
-                                                    Web developer
-                                                </h2>
-                                                <h>
-                                                <p style="color: #fff; margin-top:40px;">I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!</p>
-                                                <div class="ream-more-button"
-                                                    style="display:block;margin:0 auto; margin-top:40px;">
-                                                    <a href="#url" class="read-more btn" style="
-                                                        color: #ffffff;                        
-                                                        background-color: var(--primary-color);
-                                                        border-color: var(--primary-color);
-                                                        padding: 13px 35px;
-                                                        font-size: 17px;
-                                                        line-height: 28px;
-                                                        font-weight: 500;
-                                                        transition: 0.3s ease-in;
-                                                        border-radius: var(--border-radius-full);
-                                                        border: none;
-                                                        margin-right: 10px;">
-                                                        Hire Me
-                                                    </a>
-                                                    <a href="#url" class="read-more btn" style="
-                                                        padding: 13px 35px;
-                                                        font-size: 17px;
-                                                        line-height: 28px;
-                                                        font-weight: 500;
-                                                        transition: 0.3s ease-in;
-                                                        border-radius: var(--border-radius-full);
-                                                        color: #fff;
-                                                        border: 1px solid #dadada;
-                                                        background: rgba(255, 255, 255, 0.15);
-                                                        ">
-                                                        My Portfolio
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-                    <!-- end tr -->
-                </table>
-                <!-- end banner -->
-            </td>
-        </tr>
-        <!-- end tr -->
-    </table>
-    <div style="max-width:700px; margin: 0 auto;" class="email-container" style="">
-        <!-- BEGIN BODY -->
-        <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-            style="margin: auto;">
-            <tr>
-                <td class="bg_white email-hny-section" style="width:100%;">
-
-                    <table role="presentation" border="0" cellpadding="10" cellspacing="0" width="100%"
-                        class="services-top">
-                        <tbody>
-                            <tr>
-
-                                <td valign="top" width="40%" class="sub-gd ab-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-
-                                            <tr>
-                                                <td class="sub-head" style="text-align:left;padding-top:20px;">
-
-
-                                                    <img src="assets/images/about.jpg">
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="top" width="60%" class="sub-gd ab-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-
-                                            <tr>
-                                                <td class="" style="text-align: left;padding-top:20px;">
-
-                                                    <div class="heading-section" style="text-align:left;">
-                                                        <h4 style="text-align:left; font-weight:bold;">
-                                                            A Lead UI Designer & Web Developer Based In UK</h4>
-
-                                                    </div>
-                                                    <p style="margin:15px 0;">I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a Creative start right away!</p>
-                                                    
-                                                    <div class="my-info mt-3">
-                                                        <div class="single-info"><span>Email:</span>
-                                                            <p><a href="mailto:example@mail.com">example@mail.com</a></p>
-                                                        </div>
-                                                        <div class="single-info"><span>Phone:</span>
-                                                            <p><a href="tel:+21 234 567 8901">+21 234 567 8901</a></p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="read-more"
-                                                        style="display:inline-block; margin-top:20px;">
-                                                        <a href="#url" class="read-more btn" style="
-                                                            color: #ffffff;          
-                                                            background-color: #007e6a;
-                                                            border-color: #007e6a;
-                                                            padding: 13px 35px;
-                                                            font-size: 17px;
-                                                            line-height: 28px;
-                                                            font-weight: 500;
-                                                            transition: 0.3s ease-in;
-                                                            border-radius: var(--border-radius-full);
-                                                            border: none;">
-                                                            Hire Me
-                                                        </a>
-                                                        <a href="#url" class="read-more btn" style="
-                                                            color: #ffffff;   
-                                                            background-color: #02a55f;
-                                                            border-color: #02a55f;
-                                                            padding: 13px 35px;
-                                                            font-size: 17px;
-                                                            line-height: 28px;
-                                                            font-weight: 500;
-                                                            transition: 0.3s ease-in;
-                                                            border-radius: var(--border-radius-full);
-                                                            border: none;
-                                                            ">
-                                                            Download CV
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- end banner -->
-    </div>
-
-    <div style="max-width:700px; margin: 0 auto;" class="email-container">
-        <!-- BEGIN BODY -->
-        <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-            style="margin: auto;">
-            <tr>
-                <td class="bg_light email-hny-section" style="width: 100%;">
-                    <div class="heading-section" style="text-align:center; padding:0 30px;">
-                        <h3 style="font-weight:bold; margin-bottom: 30px;">What I Do For You</h3>
-                    </div>
-                    <table role="presentation" border="0" cellpadding="10" cellspacing="0" width="100%"
-                        class="services-top">
-                        <tbody>
-                            <tr>
-                                <td valign="top" width="33%" style="padding-top: 20px;" class="sub-gd grid">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <h3 class="name"> <a href="#url">Web Developmnt</a></h3>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <p class="">Sed ut unde omnis iste natus sit ntium dolor laudan. </p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="top" width="33%" style="padding-top: 20px;" class="sub-gd grid">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <h3 class="name"> <a href="#url">App Development</a></h3>
-
-
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <p class="">Sed ut unde omnis iste natus sit ntium dolor laudan. </p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="top" width="33%" style="padding-top: 20px;" class="sub-gd grid">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <h3 class="name"> <a href="#url">Photography</a></h3>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sub-head">
-                                                    <p class="">Sed ut unde omnis iste natus sit ntium dolor laudan. </p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- end banner -->
-    </div>
-    <table border="0" width="100%" cellpadding="0" cellspacing="0" style="">
-        <tbody>
-            <tr>
-                <td width="100%" align="center" valign="top">
-                    <table align="center" class="email-container" role="presentation" cellspacing="0" cellpadding="0"
-                        border="0" width="700px" style="margin:0 auto; background: var(--bg-color);">
-                        <!--start grid -->
-                        <tbody>
-                            <tr>
-                                <td class="bg_White email-hny-section" style="width:100%;">
-                                    <!--/grid1-->
-                                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                        <tbody>
-                                            <tr>
-
-                                                <td valign="left" width="50%" class="sub-gd grid-top-space">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0"
-                                                        border="0" width="100%">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <img class="img-responsive radius-image"
-                                                                        src="assets/images/about1.jpg" alt=""
-                                                                        style="height: auto; margin:0 auto 1em; display: block;width:100%">
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                                <td valign="right" width="50%" class="sub-gd">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0"
-                                                        border="0" width="100%">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="text-services gd-sub-inf"
-                                                                    style="text-align: left; padding-left:20px;">
-                                                                    <div class="heading-section">
-                                                                        <h3><span class="hny-email-sub"
-                                                                                style="font-weight:bold;">My Featured Skills
-                                                                        </h3>
-                                                                        <p style="margin:20px 0;">I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work.</p>
-                                                                        <div class="progress-info mt-4">
-                                                                            <h6 class="progress-tittle" style="font-size: 16px;
-                                                                            color: var(--font-color);
-                                                                            margin-bottom: 10px;
-                                                                            font-weight: 500;">UI/UX Design</h6>
-                                                                            <div class="progress" style="
-                                                                            display: flex;
-                                                                            height: 0.5em;
-                                                                            overflow: hidden;
-                                                                            font-size: 0.75rem;
-                                                                            background-color: var(--bg-grey);
-                                                                            border-radius: 0.25rem;">
-                                                                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%; background-color: var(--primary-color); background-image: none;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="progress-info mt-4">
-                                                                            <h6 class="progress-tittle" style="font-size: 16px;
-                                                                            color: var(--font-color);
-                                                                            margin-bottom: 10px;
-                                                                            font-weight: 500;">Ideas & Technology</h6>
-                                                                            <div class="progress" style="
-                                                                            display: flex;
-                                                                            height: 0.5em;
-                                                                            overflow: hidden;
-                                                                            font-size: 0.75rem;
-                                                                            background-color: var(--bg-grey);
-                                                                            border-radius: 0.25rem;">
-                                                                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%; background-color: var(--primary-color); background-image: none;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="progress-info mt-4">
-                                                                            <h6 class="progress-tittle" style="font-size: 16px;
-                                                                            color: var(--font-color);
-                                                                            margin-bottom: 10px;
-                                                                            font-weight: 500;">Responsive Design</h6>
-                                                                            <div class="progress" style="
-                                                                            display: flex;
-                                                                            height: 0.5em;
-                                                                            overflow: hidden;
-                                                                            font-size: 0.75rem;
-                                                                            background-color: var(--bg-grey);
-                                                                            border-radius: 0.25rem;">
-                                                                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%; background-color: var(--primary-color); background-image: none;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </td>
-
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-
-
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <!--//grid1-->
-
-                                </td>
-                            </tr>
-                            <!--end grid -->
-                        </tbody>
-                    </table>
-                    <!-- end banner -->
-                </td>
-            </tr>
-            <!--end grid -->
-        </tbody>
-    </table>
-    <table align="center" class="email-container" role="presentation" cellspacing="0" cellpadding="0" border="0"
-        width="700px" style="margin:0 auto;">
-        <!--start counter-->
-        <tr>
-            <td valign="middle" class="vjm bg_white"
-                style="background-image: url(assets/images/banner.jpg); background-size:cover;position:relative;">
-                <div class="overlay-banner">
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                        <tbody>
-                            <tr>
-                                <td valign="middle" width="30%" class="sub-gd counter-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="counter-text">
-                                                    <span class="num">1500</span>
-                                                    <span class="name">Finished Projects
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="middle" width="30%" class="sub-gd counter-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="counter-text staff">
-                                                    <span class="num">1280</span>
-                                                    <span class="name">Online Support
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="middle" width="30%" class="sub-gd counter-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td class="counter-text">
-                                                    <span class="num">3020</span>
-                                                    <span class="name">Happy Customers
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-
-                            </tr>
-                        </tbody>
-                    </table>
+    <!-- Blog Single banner -->
+    <section class="w3l-about-breadcrumb text-center">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+            <div class="container py-lg-5 mt-5">
+                <div class="banner-info-grid mt-5">
+                    <h2 class="w3l-title-breadcrumb">展望未来</h2>
                 </div>
-            </td>
-        </tr>
-        <!-- end-counter -->
-    </table>
-    <!-- end banner -->
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="/index.html" style="text-decoration: none;">首页</a></li>
+                    <li class="active"><span class="fa fa-angle-right mx-2" aria-hidden="true"></span> 展望未来</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- //Blog Single banner -->
 
 
+    <!-- Blog Section -->
+    <section class="blog-post-main w3l-blog">
+        <div class="blog-content-inf py-5">
+            <div class="container py-lg-5 py-md-4 py-2">
+                <div class="blog-posthny-info mx-auto" style="max-width:850px">
+                    <div class="single-post mb-4">
+                        <div class="price-review mb-1 align-items-center">
+                            <p>发布时间</p>
+                            <span>July 26,2023</span>
+                        </div>
+                        <div class="style-title position-relative">
+                            <h3 class="title-style  mb-4">以网络强国建设助力中国式现代化</h3>
+                        </div>
 
-    <div style="max-width:700px; margin: 0 auto;" class="email-container">
-        <!-- BEGIN BODY -->
-        <table align="left" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-            style="margin: auto;">
-            <tr>
-                <td class="bg_white email-hny-section w3-gallery" style="width: 100%;">
-                    <div class="heading-section" style="text-align:center; padding:0 30px;">
-                        <h3 style="font-weight:bold; margin-bottom: 20px;">My Success Work</h3>
                     </div>
-                    <table role="presentation" border="0" cellpadding="10" cellspacing="0" width="100%"
-                        class="services-top">
-                        <tbody>
-                            <tr>
-                                <td valign="top" width="33.3%" style="" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog1.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="top" width="33.3%" style="" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog2.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td valign="top" width="33.3%" style="" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog3.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
+                    <img src="assets/images/future-outlook-1.png" class="img-fluid img-responsive" alt="image" />
+                </br>
+                    <div class="single-post">
+                        <h3 class="title-style mb-4">展望未来，迈向网络发展新阶段</h3>
+                        <p class="mt-5 mb-4">随着信息时代的来临，网络已经成为推动社会发展的重要力量。在这个数字化和智能化的时代，我国积极探索并努力推动中国成为一个网络强国。网络强国不仅是在技术和经济上取得突破，更是在网络治理、网络文化等多个领域全面发展。一、网络基础设施的持续完善为了成为网络强国，稳固的网络基础设施是必不可少的。我们国家已经意识到这一点，并在过去的几年里不断加大投资，推动网络基础设施的建设和改进。随着5G技术的普及和新一代互联网技术的发展，中国已经建设了全球最大的4G网络，并开始积极推进6G技术研发。这些举措将为中国的网络强国地位奠定坚实基础。二、网络安全与信息化建设同步推进党组织意识到网络安全问题的紧迫性，并在过去的几年里加大了网络安全立法和监管的力度。建立健全网络安全法律法规体系，完善网络安全监管体系，打击网络犯罪，保护网络信息安全，这些举措都将有助于确保中国网络强国建设的安全稳健。三、网络治理的创新与合作在全球化背景下，网络治理需要国际合作。中国共产党积极参与全球互联网治理和数字经济领域的国际合作，倡导网络空间命运共同体的理念，推动网络治理国际规则的制定，维护中国在全球网络治理中的权益。同时，中国共产党也加强对网络平台和互联网企业的监管，鼓励创新，促进健康有序发展。四、网络文化的传承与创新网络强国建设不仅仅是技术和经济的竞争，更是文化的传播。鼓励优秀传统文化和社会主义核心价值观在网络空间传播，同时也要促进年轻一代的创新和表达，使网络文化成为中国软实力的重要组成部分。五、网络教育与人才培养的重视要想实现网络强国的目标，人才是最宝贵的资源。中国共产党重视网络教育与人才培养，积极推进网络教育资源的共享与开发，鼓励人才创新与创业，培养更多在网络技术、网络安全、网络治理等领域的专业人才，为中国的网络强国建设提供坚实支撑。展望未来，我们正朝着网络强国的目标迈进。通过网络基础设施的完善、网络安全与信息化建设的推进、网络治理的创新与合作、网络文化的传承与创新，以及网络教育与人才培养的重视，中国共产党必将在网络领域取得更大的进步，使中国成为一个强大的网络强国。相信在全体党员和人民的共同努力下，党组织向着网络强国迈进的未来将会更加美好！</p>
+                        <h3 class="title-style mb-4">同步推进网络强国建设</h3>
+                        <p class="mt-5 mb-4">党的二十大对全面建设社会主义现代化国家作出战略部署，同时强调2035年要建成制造强国、质量强国、航天强国、交通强国、网络强国等13个分类强国目标。网络强国是社会主义现代化国家的重要组成部分，必须准确把握网络强国与强国建设、民族复兴的内在关系。
+        准确把握信息革命时代潮流与中华民族伟大复兴进程的内在关系。习近平总书记指出，“信息化为中华民族带来了千载难逢的机遇”。从社会发展史来看，一个国家能否实现繁荣富强、长治久安，一个重要因素就是能否抓住科技革命的历史机遇。当前，数字化浪潮席卷全球，深刻重塑世界格局，正推动经济社会加速变革。世界主要国家和地区均把数字化作为优先发展的战略方向，加大政府组织和投入力度，围绕网络空间发展主导权、制网权的争夺日趋激烈。加快信息化发展步伐，推进网络强国建设，必须切实把信息化发展时代潮流转化为加快经济社会发展、增强综合国力、推进社会主义现代化建设的强劲动力。
+        准确把握网络强国与社会主义现代化强国的内在关系。2014年2月，习近平总书记在中央网络安全和信息化领导小组第一次会议上强调：“建设网络强国的战略部署要与‘两个一百年’奋斗目标同步推进，向着网络基础设施基本普及、自主创新能力显著增强、信息经济全面发展、网络安全保障有力的目标不断前进。”党的二十大报告站在党和国家事业全局的高度，对网络强国建设作出一系列新部署新要求，就加快建设网络强国、数字中国，加快发展数字经济，健全网络综合治理体系，推动形成良好网络生态，强化网络、数据等安全保障体系建设提出了明确要求。网络强国是数字时代建设社会主义现代化国家的应有之义，必须适应新时代我国社会主要矛盾的新变化，按照新时代分两步实现社会主义现代化强国目标的新要求，加快实现各项战略目标。
+        准确把握信息化与中国式现代化的内在关系。党的十八大以来，习近平总书记对信息化发展工作的要求，贯穿始终的一条，就是要充分发挥信息化驱动引领作用，以信息化推动现代化。推动新型工业化、信息化、城镇化、农业现代化同步发展，是事关现代化建设全局的重大战略课题，信息化是“四化”同步发展的加速器、催化剂。信息化丰富了中国式现代化的时代背景、实践路径、驱动力量和建设目标，为全面建设社会主义现代化国家、全面推进中华民族伟大复兴带来了千载难逢的机遇。
+                            </p>
+                        <h3 class="title-style mb-4">网络强国承担着重要使命</h3>
+                        <p class="mt5 mb-4">习近平总书记强调，“没有网络安全就没有国家安全，没有信息化就没有现代化”，充分阐释了网络强国在社会主义现代化强国建设全局中的重要地位和作用。在强国建设、民族复兴伟大进程中，网络强国建设承担着提供有力网络舆论支持、信息化支撑和网络安全保障的使命任务。
+        网络意识形态工作是意识形态工作的重中之重。当前，世界之变、时代之变、历史之变正以前所未有的方式展开，外部环境不稳定、不确定、难预料成为常态，敌对势力把互联网作为对我国实施干扰遏制、西化分化、舆论攻击的重要手段，网络意识形态领域面临多重挑战和考验。网络意识形态工作事关党的前途命运和国家长治久安，事关全面建设社会主义现代化国家、全面推进中华民族伟大复兴战略全局。
+        网络安全是国家安全的重要基石。纵观人类社会发展历程，每一次重大技术革命，都会给国家安全带来新的挑战。随着数字技术深度渗透进经济社会，全球范围内网络安全威胁和风险日益突出，针对国家、企业和个人的网络攻击时有发生，重要数据泄露和个人信息保护问题突出，网络空间军事化发展愈演愈烈，维护网络和数据安全的重要性和紧迫性日益凸显。网络安全牵一发而动全身，深刻影响政治、经济、文化、社会、军事等各领域安全，没有网络安全就没有国家安全，就没有经济社会稳定运行，广大人民群众利益也难以得到保障。
+        信息化是驱动引领中国式现代化的关键引擎。当前，以网络信息技术为代表的新一轮科技革命和产业变革深入演变，促进了人流、物流、资金流、信息流的互联互通，为推进中国式现代化提供了强大的发展动能。习近平总书记明确指出，“要适应我国发展新的历史方位，全面贯彻新发展理念，以信息化培育新动能，用新动能推动新发展，以新发展创造新辉煌”。因此，要深刻把握中国式现代化的科学内涵，加快信息化发展步伐，切实把信息化发展时代潮流转化为加快经济社会发展、增强综合国力、推进社会主义现代化建设的强劲动力。
+        网络空间命运共同体是构建人类命运共同体的重要组成部分。当今世界，互联网给全球经济社会发展注入了强劲动力，对人类文明进步发挥着重大促进作用。同时，互联网领域发展不平衡、规则不健全、秩序不合理等问题日益凸显，不同国家和地区信息鸿沟不断拉大，现有网络空间治理规则难以反映大多数国家意愿和利益。针对这些事关全球发展和未来的问题，习近平总书记创造性提出了构建网络空间命运共同体的宏伟理念，并用“发展共同推进、安全共同维护、治理共同参与、成果共同分享”深刻诠释了网络空间命运共同体的重要内涵。
+                        </p>
+                        <h3 class="title-style mb-4">开创网络综合治理新局面</h3>
+                        <p class="mt5 mb-4">习近平总书记强调：“党用伟大奋斗创造了百年伟业，也一定能用新的伟大奋斗创造新的伟业。”面向新时代新征程，要不断开创网络综合治理新局面，迈出信息化发展新步伐，筑牢网络安全新屏障，取得网络空间国际交流合作新成果，以网络强国建设新成效为全面建设社会主义现代化国家增光添彩。
+        坚持党对网信工作的集中统一领导。全面建设社会主义现代化国家，关键在党的领导。互联网管理是一项政治性极强的工作，讲政治是对网信部门第一位的要求。在网络强国建设征程中，必须把坚持正确政治方向摆在第一位，牢牢坚持党性原则，旗帜鲜明、毫不动摇坚持党管互联网、党管意识形态、党管新媒体，加强党的集中统一领导，确保始终沿着正确方向和道路前进。发扬斗争精神，强化风险意识、底线意识，压紧压实网络意识形态工作责任制和网络安全工作责任制，有效防范化解重大风险挑战。坚持产业发展到哪里，党建工作就覆盖到哪里，适应互联网新业态新模式发展变化，与时俱进创新互联网企业党建的模式、方法、载体，强化党的宗旨和作用全覆盖。
+        推进网络治理体系和治理能力现代化。治理体系和治理能力现代化是社会主义现代化的应有之义。推进网络治理体系和治理能力现代化，关键在于遵循“形成党委领导、政府管理、企业履责、社会监督、网民自律等多主体参与，经济、法律、技术等多种手段相结合的综合治网格局”，对标中国式现代化的科学内涵，坚持正能量是总要求、管得住是硬道理、用得好是真本事，同步推进正能量传播、负面内容管控、社会协同治理、网络法治、技术治网，不断提升网络治理现代化水平。
+        充分发挥信息化数字化驱动引领作用。2023年2月，中共中央、国务院联合印发《数字中国建设整体布局规划》，明确数字中国建设的主要目标、重点任务和保障措施。发挥信息化数字化驱动引领作用，关键在于把信息化建设融入全面建设社会主义现代化国家全过程，整体布局，系统推进。具体而言，就是要完善数字基础设施，充分发挥数据要素价值，加快信息领域关键核心技术突破，做大做强做优数字经济，提升自信惠民便民水平。当前，数字经济在现代化全局建设中的作用越来越重要，“数字经济事关国家发展大局”，要“推动数字经济和实体经济融合发展”“推进重点领域数字产业发展”。发展数字经济，要坚持数字产业化和产业数字化同步推进，打造数字经济核心产业，特别是加快传统产业数字化改造，打造具有世界影响力的数字产业集群。
+        坚决筑牢国家网络安全防线。党的二十大报告强调，要强化网络、数据等安全保障体系建设。在网络强国建设征程中，必须贯彻落实总体国家安全观，统筹发展和安全，全面加强网络和数据安全保障体系和能力建设。这当中，重点是抓好三个方面的安全防护：网络运行安全方面，紧盯金融、能源、交通、公共服务等重点领域的关键信息基础设施，强化主体责任、监管责任，加快风险排查，加强应急处置。数据安全方面，坚持维护数据安全和促进数据开发利用并重，加快建立健全数据分类分级保护制度，推动数据安全合规有序跨境流动。个人信息保护方面，既要常态化开展违法违规收集个人信息专项治理，也要注意提升全民网络安全意识和技能。
+        深入开展网络空间国际交流合作。习近平总书记强调：“开放是人类文明进步的重要动力，是世界繁荣发展的必由之路。”互联网的本质在于互联互通，面对逆全球化思潮抬头、世界经济复苏乏力、局部冲突和动荡频发、全球性问题加剧等严峻挑战，开展网络空间国际交流合作意义重大、前景广阔。一方面，要着眼高水平对外开放，“引进来”和“走出去”相结合，围绕数字经济、数据安全、技术创新、文化互鉴等领域，深化同全球各国的务实合作。另一方面，要深度参与互联网国际治理，系统阐释习近平总书记关于全球互联网发展治理的“四项原则”“五点主张”，全方位参与全球数字治理进程，推动全球互联网治理体系变革。                            
+                        </p>
+                    </div>
+                    <div class="single-post">
+                        <div class="single-pagination">
+                            <a class="prev-post pull-left" href="/Global-Influence.html" style="text-decoration: none;"><span class="fa fa-arrow-left"
+                                    aria-hidden="true"></span>
+                                上一篇</a>
+                            <a class="next-post pull-right" href="#" style="text-decoration: none;">下一篇 <span class="fa fa-arrow-right"
+                                    aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Blog Section -->
 
 
-                                <td valign="top" width="33.3%" style="padding: 0 10px;" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog4.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-
-                                <td valign="top" width="33.3%" style="padding: 0 10px;" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog5.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-
-                                <td valign="top" width="33.3%" style="padding: 0 10px;" class="sub-gd">
-                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <a href="#url"><img src="assets/images/blog6.jpg"
-                                                            class="img-responsive radius-image" alt=""
-                                                            style="margin: auto; margin-bottom:10px; display: block;"></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <!-- end banner -->
-    </div>
-    <table border="0" width="100%" cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="100%" align="center" valign="top">
-                <table align="center" class="email-container email-wrap-bottom" role="presentation" cellspacing="0"
-                    cellpadding="0" border="0" width="700px"
-                    style="margin:0px auto 50px; border-top: 1px solid #363636;">
-                    <!--start grid -->
-                    <tr>
-                        <td valign="middle" class="bg_dark email-hny-section">
-
-                            <table align="center" class="email-container" role="presentation" cellspacing="0" border="0"
-                                style="margin:0px auto 30px;">
-
-                                <tr>
-                                        <td>
-                                            <table class="w3layouts_social_icons" border="0" align="center" cellpadding="0" cellspacing="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <a href="#url" target="_blank" title="facebook" style="display:block; border:0;">
-                                                                <img src="assets/images/fb.png" alt="" border="0">
-                                                            </a>
-                                                        </td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>
-                                                            <a href="#url" target="_blank" title="instagram" style="display:block; border:0;">
-                                                                <img src="assets/images/tw.png" alt="" border="0">
-                                                            </a>
-                                                        </td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>&nbsp;</td>
-                                                        <td>
-                                                            <a href="#url" target="_blank" title="twitter" style="display:block; border:0;">
-                                                                <img src="assets/images/db.png" alt="" border="0">
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                </tr>
-                            </table>
-
-                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"
-                                class="wthree_copy_right_grid_right">
-                                <tbody>
-                                    <tr>
-                                        <td width="80%" align="center" valign="top" align="center" class="hny-para">
-
-                                            <p style="font-size: 15px;color: #aab2b9; line-height: 1.5;margin:0 auto;">
-                                                You are
-                                                receiving this
-                                                email because you
-                                                subscribed to our mailing list.</p>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td valign="center" width="100%" class="copy-gd" style="text-align:center;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0"
-                                            width="100%">
-                                            <tr>
-                                                <td
-                                                    style="text-align:cneter; margin-top:20px; margin-bottom: 10px; display: block;">
-                                                    <p style="color:#c1c7d4;">&copy; 2022 UI Portfolio. All rights reserved | <a target="_blank" href="http://www.mobanwang.com/" title="网页模板"style="color:#fff;" class="link-cory-right">网页模板</a></p>
-                                                </td>
-                                            </tr>
-
-                                        </table>
-
-                                    </td>
-
-                                </tr>
-
-                            </table>
-
-                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"
-                                class="wthree_copy_right_grid_right ">
-                                <tbody>
-
-                                    <tr>
-
-                                        <td align="center" class="wthree_weversion"
-                                            style="font-size: 14px; line-height:28px;">
-                                            <a href="#url" style="color:#aab2b9; text-decoration:none;">
-                                                Webversion
-                                            </a>
-                                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-                                            <a href="#url" style="color: #aab2b9;text-decoration:none;">
-                                                Unsubscribe
-                                            </a>
-                                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-                                            <a href="#url" style="color: #aab2b9;text-decoration:none;">
-                                                Support
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                    </tr>
-                </table>
-
-            </td>
-        </tr><!-- end: tr -->
-    </table>
-    <!-- end banner -->
-
-
-    <!-- common jquery plugin -->
+    <!-- footer -->
+    <footer class="text-center">
+        <div class="footer py-5">
+            <div class="container py-md-4">
+                <div clss="footer-logo">
+                    <a class="logo" href="index.html">
+                      <a href="index.html"><img src="assets/images/logo.svg" alt="logo" class="img-fluid"></a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="row footer-grids">
+                <div class="col-lg-6 copyright text-lg-start text-center align-center">
+                  <div class="copyright">
+                    声明：该网站内容均来源于网络
+                  </div>
+                </div>
+                <div class="col-lg-6 text-lg-end text-center mt-lg-0 mt-4">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#url"><span class="fab me-2 fa-facebook-f"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-twitter"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-google-plus"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-pinterest"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-vk"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
-
-    <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
-    <!-- //theme switch js (light and dark)-->
-
-
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/jquery-1.7.2.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.quicksand.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!--Alpha-->
+    <script src="assets/js/main-alpha.js"></script>
+    
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/spider-effect.js"></script>
+    
+    
 </body>
-
+    
 </html>
