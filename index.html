@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -37,23 +37,51 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between position-relative">
-
+  
       <div class="logo">
-        <!--<h1 class="text-light"><a href="index.html"><span>Squadfree</span></a></h1>-->
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="assets/images/logo.svg" alt="logo" class="img-fluid"></a>
       </div>
-
+  
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">首页</a></li>
           <li><a class="nav-link scrollto" href="#main">文章</a></li>
           <li><a class="nav-link scrollto" href="/contact.html">联系我们</a></li>
-          <li><a class="nav-link scrollto" href="#about">关于</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+  
+        <!-- search -->
+        <ul class="cd-header-buttons px-lg-2">
+          <li>
+            <a class="cd-search-trigger" href="#cd-search">
+              <span></span>
+            </a>
+          </li>
+        </ul>
+        <div id="cd-search" class="cd-search">
+          <form action="#url" method="post">
+            <input name="Search" type="search" placeholder="Click enter after typing...">
+          </form>
+        </div>
+        <!-- //search -->
 
+        <!-- 明暗主题切换开关 -->
+        <div class="cont-ser-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div>
+        <!-- //明暗主题切换开关 -->
+      </nav><!-- .navbar -->
+  
     </div>
   </header><!-- End Header -->
 
@@ -82,31 +110,30 @@
     <section class="box special features">
       <div class="features-row">
         <section>
-          <span class="icon solid major fa-bolt accent2"></span>
+          <img src="./assets/images/network-infrastructure-home.png" width="mx-auto" height="200px">
           <a href="/Network-Infrastructure.html">
           <h3>网络基础设施</h3>
-          <p style="text-indent: 0;">网络基础设施是指构建和支持现代通信网络的关键组成部分，为信息的传输和交流提供了基础。它包括各种硬件、软件和技术，以确保数据在网络中的高效、可靠传输。</p>
+          <p style="text-indent: 0;">为数创未来致力于网络基础设施创新，推动高速、安全、可靠的网络连接。通过先进技术，提供全球卓越的网络解决方案，助力数字时代的持续发展。</p>
           </a>
         </section>
         <section>
-          <span class="icon solid major fa-chart-area accent3"></span>
-          <!--<img src="./assets/images/banner.png" width="mx-auto" height="200px">-->
+          <img src="./assets/images/digital-economic-development-home.png" width="mx-auto" height="200px">
           <a href="/Digital-Economic-Development.html">
           <h3>数字经济发展</h3>
-          <p style="text-indent: 0;">中国数字经济正以惊人的速度崛起，成为推动国家经济发展的强大引擎。以数据资源为关键要素，以现代信息网络为主要载体，中国数字经济正在迅速发展，呈现出一系列显著的特点和趋势。 </p>
+          <p style="text-indent: 0;">为数创未来助力数字经济腾飞，倡导创新、智能的解决方案。通过先进技术赋能产业，推动数字化转型，引领经济发展新潮流。</p>
           </a>
         </section>
       </div>
       <div class="features-row">
         <section>
-          <span class="icon solid major fa-cloud accent4"></span>
+          <img src="./assets/images/network-security-home.png" width="mx-auto" height="200px">
           <a href="/Network-Security.html">
           <h3>网络安全与创新</h3>
-          <p style="text-indent: 0;">强大的基础设施是网络强国的基础。要想在网络空间中占据一席之地，必须确保网络基础设施的稳定、安全和高效运行。</p>
+          <p style="text-indent: 0;">为数创未来致力于网络安全与创新的融合，通过前沿技术保障网络生态安全，激发创新潜能，引领安全可持续的数字化创新。</p>
           </a>
         </section>
         <section>
-          <span class="icon solid major fa-lock accent5"></span>
+          <img src="./assets/images/e-education-home.png" width="mx-auto" height="200px">
           <a href="/E-Education.html">
           <h3>信息化教育</h3>
           <p style="text-indent: 0;">数创未来致力于推动信息化教育，整合先进科技赋能学习。通过创新教学模式，培养未来人才，助力学子迎接数字时代的挑战。</p>
@@ -115,14 +142,14 @@
       </div>
       <div class="features-row">
         <section>
-          <span class="icon solid major fa-cloud accent4"></span>
+          <img src="./assets/images/IT&AI-home.png" width="mx-auto" height="200px">
           <a href="/IT&AI.html">
           <h3>智能科技与人工智能</h3>
           <p style="text-indent: 0;">智能科技与人工智能推动科技革命，提供智能、高效的解决方案，广泛应用于医疗、交通、金融等领域，深刻影响社会。</p>
           </a>
         </section>
         <section>
-          <span class="icon solid major fa-lock accent5"></span>
+          <img src="./assets/images/global-influence-home.png" width="mx-auto" height="200px">
           <a href="/Global-Influence.html">
           <h3>全球影响力</h3>
           <p style="text-indent: 0;">数创未来在全球具有深远影响，引领科技创新，推动数字化时代发展，为全球社会带来智能化、高效化的未来愿景。</p>
@@ -133,7 +160,7 @@
     <div class="row">
       <div class="col-6 col-12-narrower">
         <section class="box special">
-          <span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
+          <!-- <span class="image featured"><img src="assets/images/future-outlook-home.jpg" alt="image" width="mx-auto" height="200px" /></span> -->
           <h3>未来展望</h3>
           <p>数创未来秉承创新精神，致力构建智能化未来。借助先进技术，拓展数字领域，助推社会进步，塑造更智能、可持续的未来愿景。</p>
           <ul class="actions special">
