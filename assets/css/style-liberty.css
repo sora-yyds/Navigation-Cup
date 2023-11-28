@@ -17714,12 +17714,12 @@ header.nav-fixed .cd-header-buttons {
 .cd-search-trigger,
 .cd-nav-trigger {
   position: relative;
-  display: block;
+  display: block !important;
   width: 36px;
   height: 36px;
   overflow: hidden;
-  white-space: nowrap;
-  color: transparent;
+  white-space: nowrap !important;
+  color: transparent !important;
   z-index: 99;
 }
 
